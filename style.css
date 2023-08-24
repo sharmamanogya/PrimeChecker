@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+   /* background-color: bisque;*/
+    flex-direction: column;
+}
+
+.first-box{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+.first-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.first-box form .btn{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: end;
+}
+.first-box form input{
+    width:200px;
+    height: 50px;
+    border: none;
+    border-bottom: 3px dotted orange ;
+    margin-bottom: 10px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn button{
+    background-color: rgb(237, 146, 100);
+    color: aliceblue;
+    border:none;
+    border: 1px solid transparent;
+    width: 70px;
+    height: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.btn button:hover{
+    background-color: bisque;
+    width: 72px;
+    height: 22px;
+    
+}
+
+
+.second-box{
+    border:none;
+    width: 300px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin:30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}   
